@@ -15,6 +15,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        // ignore: deprecated_member_use
+        backgroundColor: Colors.teal,    
         title: const Text('Crypto Tracker'),
         centerTitle: true,
         actions: [
